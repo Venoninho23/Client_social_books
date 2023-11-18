@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta API SocialBooks</title>
+</head>
+<body>
+    <br>
+    <label for="git_id">Id Livro:</label>    
+    <input class="filtrar" type="number" name="git_id" id="git_id">
+    <input class="btn-filtrar" type="button" value="Filtrar" />
+    <br>
+    <div id="error-message" class="error-message"></div>
+    <div class="tabela">
+
+        <div class="rotulo">Nome</div>
+        <div class="rotulo">Editora</div>
+        <div class="rotulo">Autor</div>
+        <div class="rotulo">Resumo</div>
+        
+        <div class="celula" id="nome"></div>
+        <div class="celula" id="editora"></div>
+        <div class="celula" id="autor"></div>
+        <div class="celula" id="resumo"></div>
+
+
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

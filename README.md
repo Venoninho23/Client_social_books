@@ -1,2 +1,3 @@
 # client_social_books
-aulas de feramentas de desenvolvimento web
+# aulas de ferramentas de desenvolvimento web
+# Lucas Mauricio :020869
